@@ -15,6 +15,10 @@ class Header extends Component {
 
 const StyledHeader = styled.div`
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   color: #36454f;
   font-weight: 400;
   font-size: 2.5rem;
@@ -23,6 +27,7 @@ const StyledHeader = styled.div`
   background-color: #f8f8f8;
   box-shadow: 0 3px 1px 0px lightgrey;
   justify-content: space-between;
+  z-index: 99;
 `;
 
 export default Header;

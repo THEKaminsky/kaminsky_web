@@ -1,7 +1,8 @@
 .Main {
+  position: relative;
   width: 80%;
   color: #36454f;
-  margin: auto;
+  margin: 175px auto;
   font-family: "Bree Serif", serif;
   font-weight: 200;
 }
