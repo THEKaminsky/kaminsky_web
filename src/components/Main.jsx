@@ -1,11 +1,18 @@
 import React, { Component } from "react";
+import About from "./About";
+import Skills from "./Skills";
+import Work from "./Work";
+import Interests from "./Interests";
 
 class Main extends Component {
   render() {
     return (
-      <h3 className="Main">
-        <p>What I'm about:</p>
-      </h3>
+      <div className="Main">
+        <About />
+        <Skills />
+        <Work />
+        <Interests />
+      </div>
     );
   }
 }
